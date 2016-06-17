@@ -5,6 +5,8 @@ IMAGE_NAME = xiabingxiejiang/redis-cluster
 help:
 	@echo "create redis cluster with docker"
 	@echo "  build           build the docker image containing a redis node"
+	@echo "  rebuild         rebuild the docker image containing a redis node"
+	@echo "  run 		 use the image start containers"
 
 build:
 	@echo "building docker image ..."
